@@ -1,0 +1,22 @@
+{
+  "AAA-Group": {
+    "stockName": "AAA-Group",
+    "numberOfShares": 120,
+    "sharePrice": 4
+  },
+  "ABB-Group": {
+    "stockName": "ABB-Group",
+    "numberOfShares": 120,
+    "sharePrice": 12
+  },
+  "ABC-Group": {
+    "stockName": "ABC-Group",
+    "numberOfShares": 100,
+    "sharePrice": 20
+  },
+  "SSS-Group": {
+    "stockName": "SSS-Group",
+    "numberOfShares": 150,
+    "sharePrice": 10
+  }
+}

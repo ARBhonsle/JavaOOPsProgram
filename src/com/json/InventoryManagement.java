@@ -41,15 +41,22 @@ public class InventoryManagement {
             // prints JSONObject
             // printDetails(obj);
             // typecast to Map prints String to console
+
+            // Rice
             Map dataDetails = ((Map) obj.get("Rice"));
             System.out.println("Rice--------");
             printDetails(dataDetails);
+
+            // Wheat
             dataDetails = ((Map) obj.get("Wheat"));
             System.out.println("Wheat-------");
             printDetails(dataDetails);
+
+            // Pulses
             dataDetails = ((Map) obj.get("Pulses"));
             System.out.println("Pulses------");
             printDetails(dataDetails);
+
         } catch (Exception e) {
             System.out.println(e);
         }
