@@ -1,12 +1,10 @@
-package com.oops;
+package com.json;
 
-import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 import java.io.FileReader;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.*;
 
 public class InventoryControl {
     // Prints to detail of given object typecast as MAP
@@ -23,7 +21,7 @@ public class InventoryControl {
         JSONParser parser = new JSONParser();
         try {
             // reads path to json file
-            Object details = parser.parse(new FileReader("./resources/inventoryDetails.json"));
+            Object details = parser.parse(new FileReader("src/resources/inventoryDetails.json"));
             // typecasting JSONObject
             JSONObject obj=(JSONObject) details;
             // prints JSONObject
